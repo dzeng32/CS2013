@@ -1,0 +1,31 @@
+1) (5) Write a recursive method that displys an int value reversely on the console using the following header:
+
+
+public static void reverseDisplay(int value){
+
+//implement body
+
+}
+
+2) (5) Write a recursive method that display a string reversely on the console using the following header:
+
+public static void reverseDisplay(String value){
+//implement body
+
+}
+
+3) Extra Credit (5 pts) Write a recursive method to print all the permutation of a string. For example, for the string "abc", the permutation is
+
+ 
+
+abc
+
+acb
+
+bac
+
+bca
+
+cab
+
+cba
