@@ -1,0 +1,15 @@
+1) (2.5pts) implement the following method that returns a new ArryList which contains the non-duplicate elements from the original list.
+
+public static <E> ArrayList<E> removeDuplicates(ArrayList<E> list)
+
+2) (2.5 pts) implement the method returns largest element from the two dimensional array
+
+public static <E extends Comparable<E>> E max(E[][] list)
+
+3) (2.5pts) implement a method that sorts an ArrayList
+
+public static <E extends Comparable<E>> void sort(ArrayList<E> list)
+
+4) (2.5pts) implement a method that shuffle an ArrayList
+
+public static <E > void suffle(ArrayList<E> list)
