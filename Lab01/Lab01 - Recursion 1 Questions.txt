@@ -1,0 +1,29 @@
+1) (5) Write a recursive method that computes x^n for a positive integer n using the following header:
+
+
+public static double powerN(double x, int n){
+
+//implement body
+
+}
+
+2) (5) Write a recursive method that computes the following series using the following header:
+
+S = 1/2 + 2/3 + 3/4+ ...+n/ (n + 1)
+
+public static double sum(int n){
+//implement body
+
+}
+
+3) Extra Credit (5) - Compute greatest common divisor using recursion.
+
+gcd(m, n) is defined recursively as
+
+1. if m%n is 0, return n
+
+2. otherwise, gcd(m,n) is gcd(n, m%n)
+
+public static int gcd(int m, int n){
+
+}

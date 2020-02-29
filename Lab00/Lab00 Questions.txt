@@ -1,0 +1,52 @@
+1. (2,5) Write a program to create a binary file named Excersize17.dat if it does not exist. Append new data to it if it already exists. Write integers from 1000 to 1200 . Then, write a method to read Excersize17.dat file.
+
+2.(2.5)  Write a program that reads lines of characters from a text file and writes each line as a UTF string into a binary file. Display the size of the text file and the binary file.
+
+Sample file:
+
+Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal. Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this. But, in a larger sense, we can not dedicate -- we can not consecrate -- we can not hallow -- this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us -- that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion -- that we here highly resolve that these dead shall not have died in vain -- that this nation, under God, shall have a new birth of freedom -- and that government of the people, by the people, for the people, shall not perish from the earth.
+
+ 
+
+Abraham Lincoln November 19, 1863
+
+ 
+
+3. (5) Write the following method that displays the bit representation for an integer.
+
+public static String getBits(int value)
+
+ 
+
+4. (10) Implement a class named BitOutputStream for writing bits to an output stream. The writeBit(char bit) method stores the bit in a byte variable. When you create a BitOutputStream, the byte is empty.  After invoking writeByte('1'), the byte becomes 00000001. After invoking writebit("0101"), the byte becomes 00000101. When a byte is full, it is sent to the output stream. Now the byte is reset to empty. You must close the stream by invoking the close() method. If the byte is neither empty nor full, the close() method first fills the zeros to make a full 8 bits in the byte and then outputs the byte and closes the stream.
+
+ 
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+public class BitOutputStream extends FileOutputStream{
+
+    public BitOutputStream(File file) throws FileNotFoundException {
+        super(file);
+        // TODO Auto-generated constructor stub
+    }
+    
+    public void writeBit(char bit) {
+        //    write a bit '0' or '1' to the output stream as a byte
+    }
+    
+    public void writeBit(String bit) {
+//        write a string of bits to the output as a byte. 
+//        If there are more than one byte, you will need to write them all bytes.
+    }
+    
+    @Override
+    public void close() {
+//        if the byte is neither empty nor full, close() must fill zeros to make a 
+//        full 8 bits in the byte and then outputs the byte and closes the stream.
+        
+    }
+
+}
