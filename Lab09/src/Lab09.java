@@ -1,10 +1,5 @@
 
-import java.util.ArrayList;
-import java.util.LinkedHashSet;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
-import java.util.TreeMap;
+import java.util.*;
 import java.io.*;
 
 public class Lab09 {
@@ -38,7 +33,7 @@ public class Lab09 {
 	
 	public static void readAndDisplay(Scanner input) {
 		
-		Set<String> set = new LinkedHashSet<>();
+		Set<String> set = new TreeSet<>();
 		
 		while(input.hasNext()) {
 			set.add(input.next());
