@@ -1,0 +1,27 @@
+1. (2.5 pts) Implement generic insertion sort
+
+public static <E extends Comparable<E>> void insertionSort(E[] list){
+
+//implement body
+
+}
+
+ 
+
+2. (2.5 pts) Implement generic bubble sort
+
+
+public static <E extends Comparable<E>> void bubbleSort(E[] list){
+
+//implement body
+
+}
+
+3. (5 pts) Implement generic merge sort
+
+
+public static <E extends Comparable<E>> void mergeSort(E[] list){
+
+//implement body
+
+}

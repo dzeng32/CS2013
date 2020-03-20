@@ -1,0 +1,17 @@
+1 (5 pts) Implement generic heap sort
+
+
+public static <E extends Comparable<E>> void heapSort(E[] list){
+
+//implement body
+
+}
+
+2 (5 pts) Implement generic quick sort
+
+
+public static <E extends Comparable<E>> void quickSort(E[] list){
+
+//implement body
+
+}
