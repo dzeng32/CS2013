@@ -1,6 +1,6 @@
 # CS2013
 Programing with Data Structures (CSULA Spring 2020)
-Instructor: Jungsoo (Sue) Lim
+
 
 Course Information:
 
